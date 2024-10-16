@@ -52,3 +52,27 @@ Return type of variables in JavaScript
        Function  =>  function
        Object  =>  object
 */
+
+
+
+                       //ALL ABOUT MEMORY
+
+
+  /*
+  
+  there are two types of memory :   stack(primitive)    heap(Non primitive)
+  jb bhi stack mai memory ho toh declared variable ka copy milta h , but in case of heap reference milta h
+  */
+
+  let name="shubham"
+  let anothername=name
+  anothername="gupta"   //as stack memory is used value of name is not changed
+
+  let mymy={
+    name: shubham,
+    class: 12
+  }
+
+  let mymymy=mymy
+
+  mymymy.name="gupta"  //  it will change the name in mymy why?? kyuki reference diya tha data heap memory mai tha
