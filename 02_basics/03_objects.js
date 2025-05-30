@@ -52,6 +52,34 @@ console.log(jsuser.greeting2)               // [function  (anonymous)]     retur
 console.log(jsuser.greeting2())            //  hello javasript user shubham gupta
 
 
+/*
+
+                      OBJECT DECLARATION USING CONTRUCTOR
+
+
+ In JavaScript, a singleton is a design pattern that ensures a class (or object) has only one instance and provides a global point of access to that instance.
+
+🔹 Why Use a Singleton?
+To share state across your app without creating multiple instances.
+
+To ensure there's only one configuration object, logger, or database connection, etc.
+
+
+🔹 Basic Singleton Example (Using Object Literal)
+
+const Singleton = {
+  name: "I am the only one",
+  greet() {
+    console.log(`Hello, ${this.name}`);
+  }
+};
+
+Singleton.greet(); // Output: Hello, I am the only one
+
+
+*/
+
+
 
 
  
